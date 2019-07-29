@@ -1,6 +1,6 @@
 
 $( "#container" ).click( function() {
-  alert("hello world");
+  $( this ).text( "hi" );
 }
 
 
